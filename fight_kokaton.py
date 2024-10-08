@@ -145,8 +145,6 @@ class Explosion:
             self.image = self.images[self.image_index]
             screen.blit(self.image, self.rct)  # 爆発画像を描画
 
-
-
 def main():
     pg.display.set_caption("たたかえ！こうかとん")
     screen = pg.display.set_mode((WIDTH, HEIGHT))
